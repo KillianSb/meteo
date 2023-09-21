@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Météo</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/animated/weather.svg" />
+</head>
+<body>
+
+<div class="content">
+    <h1 id="titre">Météo</h1>
+
+    <div id="blockForm">
+        <form id="myForm" method="post" action="" >
+            <label for="ville">Ville :</label>
+            <input type="text" id="ville" name="ville" placeholder="Ville">
+            <input id="submit" type="submit" value="Récupérer Météo">
+            <div class="blockRadio">
+                <div class="semaine">
+                    <label for="ville">14 jours :</label>
+                    <input type="radio" id="semaine" name="choix" value="semaine"></input>
+                </div>
+                <div class="jours">
+                    <label for="ville">Aujourd'hui :</label>
+                    <input type="radio" id="jours" name="choix" value="jours"></input>
+                </div>
+            </div>
+        </form>
+        <button id="refreshButton" type="button">Rafraîchir</button>
+    </div>
+
+    <h1 id="titreVille"></h1>
+
+    <div id="blockMeteo">
+    </div>
+
+</div>
+</body>
+</html>

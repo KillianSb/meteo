@@ -1,0 +1,89 @@
+body {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url("assets/background.gif") no-repeat center center fixed;
+    background-size: cover;
+    /*opacity: 0.6; !* Réglez l'opacité selon vos préférences *!*/
+}
+
+#titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    font-family: 'Concert One', cursive;
+}
+
+#blockForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em;
+    font-family: 'Concert One', cursive;
+}
+
+input#ville {
+    border-radius: 1em;
+    padding: 3px;
+    text-align: center;
+}
+
+input#submit {
+    border-radius: 1em;
+    padding: 3px;
+    justify-content: center;
+}
+
+.blockRadio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+#titreVille {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    font-family: 'Concert One', cursive;
+}
+
+#blockMeteo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#blockInfos {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: solid #9eaabd47;
+    border-radius: 1em;
+    background-color: rgba(240,248,255,0.7);
+    box-shadow: 1px 1px 9px #000000b5;
+}
+
+#temps {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+#date {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: 'Concert One', cursive;
+}
+
+#tempsTemps {
+    margin: 1vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: 'Concert One', cursive;
+}
